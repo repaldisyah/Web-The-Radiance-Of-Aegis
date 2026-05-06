@@ -1,3 +1,13 @@
+# The Radiance of Aegis
+
+Website worldbuilding fantasi untuk project gabut / killing time berisi cerita OC **The Radiance of Aegis**.
+Web ini berisi halaman utama, cerita, karakter, ras, wilayah, prophecy, timeline, dan gallery.
+
+---
+
+## Struktur Folder
+
+```txt
 the_radiance_of_aegis/
 │
 ├── README.md
@@ -43,9 +53,48 @@ the_radiance_of_aegis/
     │   ├── icons/
     │   └── decorations/
     │
-    │    ├── audio/
-    │   └── fantasy-ambience.mp3       ← Opsional
+    ├── audio/
+    │   └── .gitkeep
+    │
+    │   
     │
     └── documents/
-        ├── story-draft.docx           ← Opsional, sumber cerita
-        └── worldbuilding-notes.txt    ← Opsional, catatan referensi
+        ├── story-draft.docx          
+        └── worldbuilding-notes.txt    
+```
+
+---
+
+## Daftar Halaman
+
+| Halaman | Fungsi |
+|---|---|
+| `01_homepage.html` | Halaman utama / landing page |
+| `02_story.html` | Ringkasan cerita utama |
+| `03_characters.html` | Daftar karakter penting |
+| `04_races.html` | Penjelasan ras-ras dunia |
+| `05_regions.html` | Wilayah dan lokasi penting |
+| `06_prophecy.html` | Ramalan dan konsep takdir |
+| `07_timeline.html` | Urutan sejarah dan peristiwa |
+| `08_gallery.html` | Galeri gambar dan aset visual |
+
+---
+
+## Konsep Desain
+
+Website ini menggunakan tema **fantasy parchment map**, yaitu tampilan seperti peta petualangan kuno dengan warna coklat terang, tekstur kertas tua, dan nuansa worldbuilding fantasi.
+
+---
+
+## Cara Menjalankan
+
+Buka file berikut menggunakan browser atau Live Server di VS Code:
+
+```txt
+pages/01_homepage.html
+```
+
+---
+
+## made by
+**Repaldisyah Ahmad**.
